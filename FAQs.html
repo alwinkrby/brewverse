@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>  
+
+
+
+      
+      <nav class="navbar navbar-expand-lg py-3" style="background-color: #291603;">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-1 ps-4 dm-serif-text-regular" href="index.html">Brewverse</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+          </button>
+          <div class="collapse navbar-collapse bg-responsive rounded-3 p-2" id="navbarNavAltMarkup">
+            <div class="navbar-nav " id="links">
+              <a class="nav-link active text-white text-sm-black fs-5" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link text-white text-sm-black fs-5" href="Menu.html">MENU</a>
+              <a class="nav-link text-white text-sm-black fs-5" href="Myorder.html">MY ORDER</a>
+            </div>
+            <div class="navbar-nav ms-auto " id="SignInButtons">
+
+              <button type="button" class="btn btn-outline-light" id="sign" onclick="window.location.href='signIn.html'">SIGN IN</button>
+              <button type="button" class="btn btn-outline-light" id="sign" onclick="window.location.href='SignUp.html'">SIGN UP</button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </nav>
+
+      <section class="" id="cover" style="min-height: 100vh; height: auto;">
+      <div class="container">
+        <div class="row d-flex justify-content-center bg-white" style="min-height: 100vh; height: auto;">
+            <div class="col-lg-7 col-sm-12 arial mt-5 bg-white">
+
+                <h1 class="archivo-black-regular">Frequently Asked Questions</h1> 
+                &nbsp;
+                <p class="kanit-light">If you don't see your question below, feel free to contact us at contactBrewverse@gmail.com.</p>
+                <hr>
+                <div class="accordion mt-5 kanit-light" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                         <h2 class="accordion-header">  <!-- Accordion header 1 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="false" aria-controls="panelsStayOpen-collapse1">
+                            What types of coffee drinks do you offer?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white"> <!-- Accordion body 1 -->
+                            We offer a variety of coffee drinks, including espresso, cappuccinos, lattes, macchiatos, Americanos, cold brew, iced coffee, and specialty drinks. Check out our menu for full details!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mt-3">
+                        <h2 class="accordion-header"> <!-- Accordion header 2 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapse2">
+                            Do you offer dairy-free or plant-based milk options?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white"> <!-- Accordion body 2 -->
+                            Yes, we offer a range of plant-based milk options, including almond, oat, soy, and coconut milk, so you can enjoy your coffee just the way you like it.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mt-3"> 
+                        <h2 class="accordion-header"> <!-- Accordion header 3 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapse3">
+                            Can I customize my coffee drink?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white">  <!-- Accordion body 3 -->
+                            Absolutely! You can customize your drink with different milk options, syrups, flavors, or add extra shots of espresso. Feel free to get creative!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mt-3"> 
+                        <h2 class="accordion-header"> <!-- Accordion header 4 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+                            What is the difference between a latte and a cappuccino?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white">  <!-- Accordion body 4 -->
+                            A latte has more steamed milk and a thinner layer of foam, while a cappuccino has equal parts espresso, steamed milk, and thick foam on top.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mt-3"> 
+                        <h2 class="accordion-header"> <!-- Accordion header 5 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5">
+                            Do you offer iced coffee drinks?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white">  <!-- Accordion body 5 -->
+                            Yes, we offer a variety of iced coffee drinks, including iced lattes, iced americanos, and cold brew coffee. Perfect for warm days!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mt-3"> 
+                        <h2 class="accordion-header"> <!-- Accordion header 6 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false" aria-controls="panelsStayOpen-collapse6">
+                            Can I order coffee drinks online?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white">  <!-- Accordion body 6 -->
+                            You can place an order for pick-up or delivery through our website or app. Just select your favorite drinks and choose a convenient time!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mt-3"> 
+                        <h2 class="accordion-header"> <!-- Accordion header 7 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false" aria-controls="panelsStayOpen-collapse7">
+                            What size coffee drinks do you offer?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white">  <!-- Accordion body 7 -->
+                            We offer multiple sizes: small, medium, and large. Each drink can be customized based on your preferences.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mt-3"> 
+                        <h2 class="accordion-header"> <!-- Accordion header 8 -->
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse8" aria-expanded="false" aria-controls="panelsStayOpen-collapse8">
+                            Do you offer sugar-free or low-calorie options?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse8" class="accordion-collapse collapse">
+                          <div class="accordion-body bgbrown text-white">  <!-- Accordion body 8 -->
+                            Yes, we offer sugar-free syrups and low-fat milk options, so you can enjoy a lighter version of your favorite drinks.
+                          </div>
+                        </div>
+                      </div>
+                     
+                    
+                </div>
+                
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer p-5 ">
+
+    
+
+      <div class="container h-100">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <p class="text-white fs-1 ps-4 dm-serif-text-regular">Brewverse</p>
+            <p class="text-white fs-6 ps-4 dm-serif-text-regular arial">Est. 2025, Tarlac, Philippines</p>
+            <p class="text-white fs-4 ps-4 dm-serif-text-regular arial mt-2">Follow us</p>
+            <div class="d-flex ms-4"> <!-- div for socials -->
+              <button class="border-0 bg-transparent" onclick="window.open('https://www.facebook.com', '_blank')"><i
+                  class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i></button>
+              <button class="border-0 bg-transparent" onclick="window.open('https://www.instagram.com/', '_blank')"><i
+                  class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></button>
+              <button class="border-0 bg-transparent" onclick="window.open('https://x.com/?lang=en', '_blank')"><i
+                  class="fa-brands fa-x-twitter fa-lg" style="color: #ffffff;"></i></button>
+  
+            </div>
+  
+          </div>
+          <div class="col-lg-6 col-sm-12 ptopfooter d-flex align-items-center">
+  
+            <!-- footer for small screens only -->
+            <div class="accordion d-block d-lg-none w-100" id="accordionExample">
+              <div class="accordion-item" style="background-color: #291603; ">  <!-- About us accordion (sm) -->
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Support
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled">
+                          <li>
+                              <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="TermsAndConditions.html">Terms & Conditions</a>
+                          </li>
+                          <li>
+                              <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="FAQs.html">FAQs</a>
+                          </li>
+                          <li>
+                              <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="PrivacyNotice.html">Privacy Notice</a>
+                          </li>
+                          <li>
+                            <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="Refund.html">Refund & Return Policy</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              <div class="accordion-item" style="background-color: #291603; ">  <!-- About us accordion (sm) -->
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    About us
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="OurCompany.html">Our Company</a>
+                      </li>
+                      <li>
+                        <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="ContactUs.html">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- footer for large screens -->
+            <div class="h-100 w-100 d-none d-lg-block"> <!-- div for support (PC) -->
+              <p class="text-white fs-4 ps-4 dm-serif-text-regular arial fw-bold">Support</p>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="TermsAndConditions.html">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="FAQs.html">FAQs</a>
+                </li>
+                <li>
+                  <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="PrivacyNotice.html">Privacy Notice</a>
+                </li>
+                <li>
+                  <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="Refund.html">Refund & Return Policy</a>
+                </li>
+                
+              </ul>
+            </div>
+  
+            <div class="h-100 w-100 m-5 d-none d-lg-block"> <!-- div for about us (PC) -->
+              <p class="text-white fs-4 ps-4 dm-serif-text-regular arial fw-bold">About us</p>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="OurCompany.html">Our Company</a>
+                </li>
+                <li>
+                  <a class="text-white fs-6 ps-4 dm-serif-text-regular arial text-decoration-none" href="ContactUs.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+  <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

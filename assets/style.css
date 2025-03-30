@@ -1,0 +1,541 @@
+#cover {
+
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+#MenuCover {
+
+    height: 40vh;
+    background-image: url(../img/MenuCover.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+#MyOrderCover {
+
+    height: 45vh;
+    background-image: url(../img/MyOrderCover.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+#coverSignIn {
+
+    height: 100vh;
+    background-image: url(../img/signInPhoto.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+#coverSignUp {
+
+    height: 100vh;
+    background-image: url(../img/signUpPhoto.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+#IcedlatteCart {
+
+    height: auto;
+    background-image: url(../img/Menu/Iced\ latte.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.overlay {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlay2 {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbar-toggler:focus {
+    outline: none; 
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+}
+
+ /* ---------------fonts------------------- */
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.arial {
+
+    font-family: Arial, sans-serif;
+
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+#carouselExampleFade {
+
+    padding-bottom: 200px;
+
+}
+.carousel-control-next, .carousel-control-prev {
+
+    padding-bottom: 200px;
+
+}
+.custom-btn {
+    width: 200px;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+
+}
+.checkout-btn {
+    width: 150px;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #d5a520;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+
+}
+#LoginButton {
+
+    width: 400px;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #d5a520;
+    color: White;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.custom-btn:hover {
+    background-color: #c7c7c7;
+    cursor: pointer;
+   
+}
+#LoginButton:hover {
+    background-color: #291603;
+    cursor: pointer;
+   
+}
+
+#bestsellersdiv {
+
+    background-color: white;
+    align-items: center;
+    
+
+}
+
+#bestsellersdiv .col-lg-4:hover img {
+    filter: brightness(0.5);
+    transition: filter 0.3s ease; 
+}
+#Menudiv {
+
+    background-color: white;
+    align-items: center;
+    
+
+}
+
+#Menudiv .col-lg-3:hover img {
+    filter: brightness(0.5);
+    transition: filter 0.3s ease; 
+}
+
+.text-overlay {
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+
+}
+.text-overlayMenu {
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+
+}
+.text-overlayOtherProducts {
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+
+}
+.p-overlay {
+
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    color: white;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+
+}
+.footer {
+    background-color: #291603; 
+    color: white;
+    padding: 20px 0;
+    height: 400px;
+  }
+.bgbrown{
+
+    background-color: #291603; 
+}
+.form-control:focus {
+    box-shadow: none !important;
+    outline: none; 
+    border: 2px solid #d5a520;
+    
+  }
+.form-control {
+
+    border: 1px solid #291603;
+    width: 400px;
+    height: 50px;
+    
+}
+.CoffeMenuBox {
+    
+    height: 300px;
+    width: auto;
+
+}
+#DescriptionDiv {
+
+    padding: 120px;
+}
+.custom-dropdown-btn {
+
+    font-size: 18px; 
+    height: 50px;   
+    width: 200px;   
+    background-color: #d5a520;
+    border: none;
+
+}
+.custom-dropdown-btn:hover {
+    background-color: #291603; 
+}
+.addTocart-btn {
+    height: 60px;
+    width: 350px;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #d5a520;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-weight: bold;
+
+}
+.otherProducts {
+
+    width: 20%;
+    height: auto;
+
+}
+
+
+/* Coffe Description Cover photos */
+#LatteDes{
+    background-image: url(../img/ProductDetails/LatteDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#CappuccinoDes{
+    background-image: url(../img/ProductDetails/CappuccinoDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#EspressoDes{
+    background-image: url(../img/ProductDetails/EspressoDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#AmericanoDes{
+    background-image: url(../img/ProductDetails/AmericanoDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#CaramelMacchiatoDes{
+    background-image: url(../img/ProductDetails/CaramelMacchiatoDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#MochaDes{
+    background-image: url(../img/ProductDetails/Mocha.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#IcedLatteDes{
+    background-image: url(../img/ProductDetails/IcedLatte.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#IcedCoffeeDes{
+    background-image: url(../img/ProductDetails/IcedCoffee.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#IcedAmericanoDes{
+    background-image: url(../img/ProductDetails/Icedamericano.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#HotChocolateDes{
+    background-image: url(../img/ProductDetails/HotChocolatedDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#ChaiLatteDes{
+    background-image: url(../img/ProductDetails/ChaiLatteDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#HerbalTeaDes{
+    background-image: url(../img/ProductDetails/HerbalTeaDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#CroissantDes{
+    background-image: url(../img/ProductDetails/CroissantDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#CinnamonRollDes{
+    background-image: url(../img/ProductDetails/CinnamonRollDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#CookiesDes{
+    background-image: url(../img/ProductDetails/CookiesDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#MuffinsDes{
+    background-image: url(../img/ProductDetails/MuffinsDetais.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#GranolaDes{
+    background-image: url(../img/ProductDetails/GranolaBarDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#TiramisuDes{
+    background-image: url(../img/ProductDetails/TiramisuDetails.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+@media (max-width: 991px) {
+    .bg-responsive {
+        background-color: white !important;
+    }
+    .text-sm-black {
+        color: black !important; /* Black text color for small screens */
+    }
+    #header {
+
+        padding-top: 10px !important;
+
+    }
+    #sign {
+
+        width: 100px;
+        border-color: black;
+        color: black;
+        margin-top: 10px;
+
+    }
+    .bspics {
+
+        filter: brightness(0.5);
+        margin-top: 10px;
+    
+    }
+    .ptopfooter {
+        padding-top: 20px;
+    }
+    .footer {
+        height: 500px;
+    }
+    .form-control {
+
+        border: 1px solid #291603;
+        width: 100%;
+        height: 50px;
+        
+    }
+    #LoginButton {
+
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        text-align: center;
+        background-color: #d5a520;
+        color: White;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: bold;
+        margin-top: 20px;
+    
+    }
+    #carouselExampleFade {
+
+        width: 400px;
+        margin-top: 20px;
+    
+    }
+    .CoffeMenuBox {
+    
+        height: 500px;
+        width: auto;
+    
+    }
+    #DescriptionDiv {
+
+        padding: 40px;
+    }
+    .text-overlayOtherProducts {
+
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        color: white;
+        font-family: Arial, sans-serif;
+    
+    }
+    
+}
+
+@media (min-width: 992px) { 
+
+    #links{
+
+        
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        
+
+    }
+    #SignInButtons {
+
+        padding-right: 40px;
+        width: 300px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+   
+
+ }
